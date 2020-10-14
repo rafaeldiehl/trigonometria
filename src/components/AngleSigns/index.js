@@ -7,7 +7,7 @@ function AngleSigns () {
         <AngleSignsContainer>
             <div className="text-container">
                 <h3>Sinais dos quadrantes</h3>
-                <p>Os ângulos possuem valores parecidos de seno, cosseno e tangente, e a distinção ocorre pelo sinal. Podemos ver a distinção entre os sinais, abaixo:</p>
+                <p>Os ângulos possuem valores parecidos de seno, cosseno e tangente, e a <strong>distinção ocorre pelo sinal</strong>. Podemos ver a distinção entre os sinais, abaixo:</p>
             </div>
 
             <div className="quadrants">

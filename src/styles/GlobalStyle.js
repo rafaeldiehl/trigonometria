@@ -56,6 +56,50 @@ const GlobalStyle = createGlobalStyle`
             position: relative;
             font-size: 2.4rem;
         }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: left;
+            padding: 30px;
+            max-width: 780px;
+            width: 70vw;
+
+            h3 {
+                padding: 40px 0 30px 0;
+                line-height: 45px;
+
+                &::after {
+                    position: absolute;
+                    top: -1.8rem;
+                    content: '_';
+                    font-weight: 300;
+                    font-size: 3rem;
+                    left: 0.2rem;
+                    color: var(--secundary-blue);
+                }
+            }
+        }
+
+        strong {
+            font-weight: 500;
+            color: white;
+        }
+
+        @media (max-width: 960px) {
+            .text-container {
+                width: 90vw;
+                max-width: 90vw;
+            }
+        }
+
+        @media (max-width: 750px) {
+            .text-container {
+                width: 95vw;
+                max-width: 95vw;
+            }
+        }
     }
 `;
 

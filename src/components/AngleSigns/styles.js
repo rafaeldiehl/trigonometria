@@ -10,10 +10,6 @@ const AngleSignsContainer = styled.section`
     margin: 0;
     padding-bottom: 5rem;
 
-    .text-container, .quadrants {
-        width: 70vw;
-    }
-
     .text-container {
         display: flex;
         flex-direction: column;
@@ -42,6 +38,7 @@ const AngleSignsContainer = styled.section`
         flex-direction: row;
         justify-content: space-between;
         max-width: 750px;
+        width: 70vw;
 
         .quadrant-container {
             text-align: center;
@@ -84,6 +81,10 @@ const AngleSignsContainer = styled.section`
                         padding-bottom: 15px;
                         padding-right: 15px;
                     }
+
+                    &:hover {
+                        color: white;
+                    }
                 }
 
                 .less {
@@ -107,11 +108,6 @@ const AngleSignsContainer = styled.section`
     }
 
     @media (max-width: 960px) {
-        .text-container {
-            width: 90vw;
-            max-width: 90vw;
-        }
-
         .quadrants {
             width: 85vw;
             max-width: 85vw;
@@ -119,11 +115,6 @@ const AngleSignsContainer = styled.section`
     }
 
     @media (max-width: 750px) {
-        .text-container {
-            width: 95vw;
-            max-width: 95vw;
-        }
-
         .quadrants {
             width: 100%;
             flex-direction: column;
