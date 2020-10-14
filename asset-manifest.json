@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/trigonometria/static/js/main.f58e4c02.chunk.js",
+    "main.js.map": "/trigonometria/static/js/main.f58e4c02.chunk.js.map",
+    "runtime-main.js": "/trigonometria/static/js/runtime-main.4e5bafd6.js",
+    "runtime-main.js.map": "/trigonometria/static/js/runtime-main.4e5bafd6.js.map",
+    "static/js/2.9c40c2f4.chunk.js": "/trigonometria/static/js/2.9c40c2f4.chunk.js",
+    "static/js/2.9c40c2f4.chunk.js.map": "/trigonometria/static/js/2.9c40c2f4.chunk.js.map",
+    "index.html": "/trigonometria/index.html",
+    "precache-manifest.09d0fec12710083b7af059f0ddfc5b04.js": "/trigonometria/precache-manifest.09d0fec12710083b7af059f0ddfc5b04.js",
+    "service-worker.js": "/trigonometria/service-worker.js",
+    "static/js/2.9c40c2f4.chunk.js.LICENSE.txt": "/trigonometria/static/js/2.9c40c2f4.chunk.js.LICENSE.txt",
+    "static/media/ciclo-trigonometrico.png": "/trigonometria/static/media/ciclo-trigonometrico.45d383a2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e5bafd6.js",
+    "static/js/2.9c40c2f4.chunk.js",
+    "static/js/main.f58e4c02.chunk.js"
+  ]
+}
