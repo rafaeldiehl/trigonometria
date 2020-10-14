@@ -96,8 +96,9 @@ const GlobalStyle = createGlobalStyle`
 
         @media (max-width: 750px) {
             .text-container {
-                width: 95vw;
-                max-width: 95vw;
+                width: 96vw;
+                max-width: 96vw;
+                font-size: 1rem;
             }
         }
     }

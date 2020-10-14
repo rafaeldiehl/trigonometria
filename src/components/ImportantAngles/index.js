@@ -7,7 +7,7 @@ function ImportantAngles () {
         <ImportantAnglesContainer>
             <div className="text-container">
                 <h3>Ângulos Notáveis</h3>
-                <p>A partir de deduções geométricas e cálculos matemáticos, conseguimos calcular as relações trigonométricas <strong>seno</strong>, <strong>cosseno</strong> e <strong>tangente</strong> dos ângulos de <strong>30°</strong>, <strong>45°</strong> e <strong>60°</strong> do triângulo retângulo. A seguinte tabela ilustra essas relações relações:</p>
+                <p>A partir de deduções geométricas e cálculos matemáticos, conseguimos calcular as relações trigonométricas <strong>seno</strong>, <strong>cosseno</strong> e <strong>tangente</strong> dos ângulos de <strong>30°</strong>, <strong>45°</strong> e <strong>60°</strong> do triângulo retângulo. Junto aos ângulos temos seus correspondentes em radianos (lembrando-se sempre que <strong>π = 180°</strong>). A seguinte tabela ilustra essas relações:</p>
             </div>
 
             <div className="table-container">
