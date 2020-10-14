@@ -7,7 +7,9 @@ function Header () {
         <HeaderContainer>
             <h1>Trigonometria<span>.</span></h1>
             <p>Trigonometria é a área da matemática que estuda as relações envolvendo os lados de um triângulo retângulo, que um polígono que possui três ângulos.</p>
-            <a href="#">Conheça</a>
+            <div className="scroll-down">
+                <div className="scroll-down-circle"></div> 
+            </div>
         </HeaderContainer>
     );
 };

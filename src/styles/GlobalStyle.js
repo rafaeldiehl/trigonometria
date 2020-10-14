@@ -20,10 +20,14 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background: var(--main-bg);
+        background-color: var(--main-bg);
         color: ${props => (props.darkColor ? 'var(--main-bg)' : 'var(--text-color)')};
         font-family: var(--primary-font);
         font-size: 1.2rem;
+
+        input, button, textarea {
+            font-family: var(--primary-font);
+        }
         
         * {
             box-sizing: border-box;
@@ -49,6 +53,7 @@ const GlobalStyle = createGlobalStyle`
         }
 
         h3 {
+            position: relative;
             font-size: 2.4rem;
         }
     }
