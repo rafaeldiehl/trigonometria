@@ -6,7 +6,7 @@ Resumo de trigonometria feito em React.js
 
 Para rodar a aplicação localmente, execute os comandos abaixo (yarn pode ser substituído por npm):
 
-```
+```bash
 # Clone este repositório
 $ git clone https://github.com/rafaeldiehl/trigonometria.git 
 
